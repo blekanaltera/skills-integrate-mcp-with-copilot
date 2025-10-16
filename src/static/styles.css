@@ -1,3 +1,23 @@
+/* Filters UI styles */
+#activity-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#activity-filters label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+#activity-filters select,
+#activity-filters input[type="text"] {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  margin-right: 10px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
